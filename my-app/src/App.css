@@ -1,0 +1,66 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+.projects-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.projects-table th,
+.projects-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.projects-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.projects-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.projects-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.pagination-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-list li {
+  margin: 0 5px;
+}
+
+.pagination-list button {
+  border: none;
+  background: #007bff;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination-list .active button {
+  background: #0056b3;
+}
+
+.pagination-list button:hover {
+  background: #0056b3;
+}
+
+.pagination-list button:disabled {
+  background: #d6d6d6;
+  cursor: not-allowed;
+}
